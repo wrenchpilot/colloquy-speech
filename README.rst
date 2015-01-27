@@ -13,7 +13,9 @@ Forked Changes
 :author: James Shawn Carnley, <wrenchpilot@gmail.com>
 
 Very simple filtering for Twitch live streaming based on hardcoded values. 
+
 Currently filters out: 
+
 * "nightbot"
 * "moobot"
 * "!songrequest"
