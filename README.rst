@@ -18,8 +18,7 @@ Currently filters out:
 
 * "nightbot"
 * "moobot"
-* "!songrequest"
-* "!sq" - custom command for song requests by title
+* All commands that begin with "!"
 
 TODO:
 
