@@ -8,6 +8,21 @@
 
 :author: James Tatum, <jtatum@gmail.com>
 
+Forked Changes
+==============
+:author: James Shawn Carnley, <wrenchpilot@gmail.com>
+
+Very simple filtering for Twitch live streaming based on hardcoded values. 
+Currently filters out: 
+* "nightbot"
+* "moobot"
+* "!songrequest"
+* "!sq" - custom command for song requests by title
+
+TODO:
+* Make the filters configurable via the /speech command
+* Store filters via ini file...
+
 Installation
 ============
 Drop speech.py into one of these locations::
