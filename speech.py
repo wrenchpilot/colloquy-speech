@@ -115,7 +115,7 @@ def processIncomingMessage( message, view ):
    thisNickname = message.senderNickname()
    msg = message.bodyAsPlainText()
    source = view.identifier()
-   if speaking and source.startswith('Chat Room') and thisNickname != 'nightbot' and thisNickname !="moobot" and "!songrequest" not in msg and "!sq" not in msg:
+   if speaking and source.startswith('Chat Room') and thisNickname != 'nightbot' and thisNickname !="moobot" and not msg.startswith("!"):
       if speaknick:
          say(message.senderNickname() + ': ' + msg)
       else:
