@@ -22,6 +22,7 @@ Currently filters out:
 * "!sq" - custom command for song requests by title
 
 TODO:
+
 * Make the filters configurable via the /speech command
 * Store filters via ini file...
 
